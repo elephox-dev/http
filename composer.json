@@ -1,0 +1,22 @@
+{
+    "name": "philly/http",
+    "description": "Philly HTTP library.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ricaro Boss",
+            "email": "contact@ricardoboss.de"
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "philly/collection": "dev-main",
+        "philly/support": "dev-main"
+    },
+    "autoload": {
+        "psr-4": {
+            "Philly\\Http\\": "src/"
+        }
+    }
+}
