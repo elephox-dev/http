@@ -16,6 +16,7 @@
         "elephox/files": "dev-develop",
         "elephox/mimey": "^4.0",
         "elephox/oor": "dev-develop",
+        "elephox/platform": "dev-develop",
         "elephox/stream": "dev-develop",
         "elephox/support": "dev-develop",
         "jetbrains/phpstorm-attributes": "^1.0"
