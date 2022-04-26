@@ -5,6 +5,7 @@ namespace Elephox\Http\Platform;
 
 use Elephox\Platform\Contract\SessionPlatform;
 use JetBrains\PhpStorm\ArrayShape;
+use JetBrains\PhpStorm\Deprecated;
 use RuntimeException;
 use SessionHandlerInterface;
 
@@ -33,6 +34,7 @@ class FakeSessionPlatform implements SessionPlatform
 		throw new RuntimeException('Not implemented');
 	}
 
+	#[Deprecated(reason: 'Alias of session_write_close()', replacement: 'write_close(%parametersList%)')]
 	public static function commit(): bool
 	{
 		throw new RuntimeException('Not implemented');
